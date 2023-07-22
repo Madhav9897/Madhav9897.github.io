@@ -1,0 +1,68 @@
+.mainContainer {
+    width: 650px;
+    margin-inline: auto;
+}
+
+.headerTitle {
+    color: darkslategrey;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.todoListWrapper {
+    min-height: 100px;
+    padding: 12px;
+    background-color: #E5E8F1;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.todoListItem {
+    background-color: #FFF;
+    border-radius: 4px;
+    display:flex;
+}
+
+
+
+.taskInfo {
+    margin: auto;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    display: flex;
+    flex-direction: column;
+    color: #555555;
+    font-size: 16px;
+}
+
+.dateTime {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.todoListItem .deleteTask {
+    float: right;
+    margin-block: auto;
+    background-color: #EEEEEE;
+    padding: 5px;
+    border-radius: 4px;
+    margin-inline: 4px;
+    color: #555555;
+    height: 20px;
+    width: 20px;
+}
+
+.headerGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 12px;
+}
+
+.dropDownSelection {
+    height: 40px;
+}
